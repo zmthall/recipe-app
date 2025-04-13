@@ -27,7 +27,8 @@ interface Nutrition {
 
 export interface Recipe {
   title: string;
-  image: Image
+  rating: number;
+  image: Image;
   ingredients: string[];
   instructions: Instruction[];
   prepTime: string;

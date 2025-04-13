@@ -8,10 +8,17 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxt/icon",
     "@nuxt/image",
+    "@pinia/nuxt",
+    "@vueuse/nuxt",
   ],
   googleFonts: {
     families: {
-      Montserrat: true,
+      montserrat: {
+        wght: [300, 400, 500, 600, 700, 800],
+      },
+      "Open Sans": {
+        wght: [300, 400, 500, 600, 700, 800],
+      },
     },
   },
   runtimeConfig: {

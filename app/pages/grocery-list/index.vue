@@ -1,9 +1,7 @@
 <template>
-  <UiTheHeader />
   <div>
-    <slot />
+    
   </div>
-  <UiTheFooter />
 </template>
 
 <script lang="ts" setup>

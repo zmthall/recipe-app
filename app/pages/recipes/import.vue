@@ -16,6 +16,7 @@ const url = ref<string>("");
 
 const localRecipe = ref<Recipe>({
   title: "",
+  rating: 0,
   image: {
     url: ''
   },

@@ -1,5 +1,5 @@
 <template>
-  <div class="font-Montserrat container">
+  <div class="font-montserrat bg-brand-background text-brand-text-dark">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
