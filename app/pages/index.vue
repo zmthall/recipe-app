@@ -190,7 +190,7 @@
         <div>
           <h3 class="text-2xl font-bold text-brand-primary mb-2">🥗 Radish</h3>
           <p class="text-brand-text-medium mb-4">Fresh and simple. Great for getting started.</p>
-          <ul class="text-left space-y-2 text-brand-text-medium mb-6">
+          <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
             <li>✅ 2 Cookbooks</li>
             <li>✅ 25 Saved Recipes</li>
             <li>✅ Web Recipe Import</li>
@@ -210,7 +210,7 @@
         <div>
           <h3 class="text-2xl font-bold text-brand-accent mb-2">🥑 Avocado</h3>
           <p class="text-brand-text-medium mb-4">Rich in features, just right for everyday cooking.</p>
-          <ul class="text-left space-y-2 text-brand-text-medium mb-6">
+          <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
             <li>✅ 10 Cookbooks</li>
             <li>✅ Up to 1,000 Recipes</li>
             <li>✅ Web Import & Editor</li>
@@ -233,7 +233,7 @@
         <div>
           <h3 class="text-2xl font-bold text-brand-primary mb-2">🍄 Truffle</h3>
           <p class="text-brand-text-medium mb-4">All the flavor, all the power. No limits.</p>
-          <ul class="text-left space-y-2 text-brand-text-medium mb-6">
+          <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
             <li>✅ Unlimited Cookbooks</li>
             <li>✅ Unlimited Recipes</li>
             <li>✅ Everything in Avocado Tier</li>

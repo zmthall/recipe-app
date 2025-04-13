@@ -46,11 +46,11 @@
             This isn't just an app I made — it's one I use every single day. I utilize every feature:
           </p>
           <ul class="list-disc pl-5 mt-4 space-y-2 text-brand-text-medium">
-            <li>📘 Saving and editing my favorite recipes</li>
-            <li>📆 Planning weekly meals to reduce decision fatigue</li>
-            <li>🛒 Creating organized grocery carts that save time and cut waste</li>
-            <li>🥗 Tracking macros and journaling food for personal fitness goals</li>
-            <li>🧠 Reusing saved meal plans for efficient prep and consistency</li>
+            <li>Saving and editing my favorite recipes</li>
+            <li>Planning weekly meals to reduce decision fatigue</li>
+            <li>Creating organized grocery carts that save time and cut waste</li>
+            <li>Tracking macros and journaling food for personal fitness goals</li>
+            <li>Reusing saved meal plans for efficient prep and consistency</li>
           </ul>
           <p class="mt-4 text-lg">
             I created MenuMate to serve my life — and I know it can do the same for yours.
