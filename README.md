@@ -181,3 +181,80 @@ recipe-app
 └─ tsconfig.json
 
 ```
+```
+recipe-app
+├─ README.md
+├─ app
+│  ├─ app.vue
+│  ├─ components
+│  │  ├─ auth
+│  │  │  └─ background.vue
+│  │  └─ ui
+│  │     ├─ TheFooter.vue
+│  │     └─ TheHeader.vue
+│  ├─ composables
+│  │  ├─ firebaseAuth.ts
+│  │  ├─ firebaseDb.ts
+│  │  └─ recipes.ts
+│  ├─ layouts
+│  │  ├─ auth.vue
+│  │  └─ default.vue
+│  ├─ middleware
+│  │  └─ restricted.ts
+│  ├─ models
+│  │  └─ types
+│  │     ├─ cookbook.ts
+│  │     ├─ header.ts
+│  │     ├─ index.ts
+│  │     ├─ recipe.ts
+│  │     └─ user.ts
+│  ├─ pages
+│  │  ├─ about.vue
+│  │  ├─ contact.vue
+│  │  ├─ cook-books
+│  │  │  ├─ [...slug].vue
+│  │  │  └─ index.vue
+│  │  ├─ dashboard.vue
+│  │  ├─ grocery-list
+│  │  │  └─ index.vue
+│  │  ├─ index.vue
+│  │  ├─ login.vue
+│  │  ├─ meal-planner
+│  │  │  └─ index.vue
+│  │  ├─ policy
+│  │  │  ├─ accessibility.vue
+│  │  │  ├─ privacy.vue
+│  │  │  ├─ terms.vue
+│  │  │  └─ usage.vue
+│  │  ├─ recipes
+│  │  │  ├─ [...slug].vue
+│  │  │  ├─ import.vue
+│  │  │  └─ index.vue
+│  │  └─ register.vue
+│  ├─ plugins
+│  │  └─ auth.client.ts
+│  └─ stores
+│     ├─ authStore.ts
+│     └─ uiStore.ts
+├─ nuxt.config.ts
+├─ package-lock.json
+├─ package.json
+├─ public
+│  ├─ favicon.ico
+│  ├─ images
+│  │  ├─ auth-page.jpg
+│  │  ├─ favicon.png
+│  │  ├─ food-and-tech.jpg
+│  │  ├─ food-table.jpg
+│  │  ├─ login-logo.png
+│  │  ├─ logo.png
+│  │  └─ register-logo.png
+│  └─ robots.txt
+├─ server
+│  ├─ api
+│  │  └─ scrape-json-ld.ts
+│  └─ tsconfig.json
+├─ tailwind.config.js
+└─ tsconfig.json
+
+```

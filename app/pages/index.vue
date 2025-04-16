@@ -35,12 +35,16 @@
 
     <!-- Image Left -->
     <div class="md:w-1/2 flex justify-center">
-      <NuxtImg
+      <img
         src="/images/food-table.jpg"
         alt="MenuMate Recipe Editor Screenshot"
         class="rounded-xl shadow-lg max-w-full w-[420px] h-auto"
-        format="webp"
       />
+      <!-- <NuxtImg
+        src="/images/food-table.jpg"
+        alt="MenuMate Recipe Editor Screenshot"
+        class="rounded-xl shadow-lg max-w-full w-[420px] h-auto"
+      /> -->
     </div>
 
     <!-- Text Right -->

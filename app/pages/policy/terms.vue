@@ -64,7 +64,7 @@
           to store, process, and display your content solely to provide and improve our features.
         </p>
         <p class="mt-2">
-          Please refer to our <NuxtLink to="/privacy-policy" class="text-brand-link underline hover:text-brand-link-hover">Privacy Policy</NuxtLink> for more on how we handle data.
+          Please refer to our <NuxtLink to="/policy/privacy" class="text-brand-link underline hover:text-brand-link-hover">Privacy Policy</NuxtLink> for more on how we handle data.
         </p>
       </div>
 

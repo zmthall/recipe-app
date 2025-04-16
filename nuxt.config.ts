@@ -39,5 +39,5 @@ export default defineNuxtConfig({
     },
     baseURL: "/recipe-app/",
     buildAssetsDir: "assets",
-  },
+  }
 });

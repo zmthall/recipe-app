@@ -9,7 +9,7 @@
       </p>
 
       <p>
-        We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Terms used here have the same meaning as in our <NuxtLink to="/terms" class="text-brand-link underline hover:text-brand-link-hover">Terms and Conditions</NuxtLink>.
+        We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Terms used here have the same meaning as in our <NuxtLink to="/policy/terms" class="text-brand-link underline hover:text-brand-link-hover">Terms and Conditions</NuxtLink>.
       </p>
 
       <h2 class="text-xl font-bold">Information Collection And Use</h2>
