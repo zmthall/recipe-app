@@ -23,34 +23,22 @@
             It helped me get back into shape, streamline my eating habits, and bring more order to my day-to-day.
           </p>
         </div>
-        <img
+        <NuxtImg
           src="/images/food-and-tech.jpg"
           alt="Food and technology goes together."
           class="rounded-xl shadow-md"
           width="500"
         />
-        <!-- <NuxtImg
-          src="/images/food-and-tech.jpg"
-          alt="Food and technology goes together."
-          class="rounded-xl shadow-md"
-          width="500"
-        /> -->
       </div>
 
       <!-- Section 2: Using the App Personally -->
       <div class="grid md:grid-cols-2 gap-10 items-center">
-        <img
+        <NuxtImg
           src="/images/food-table.jpg"
           alt="Using MenuMate on Tablet"
           class="rounded-xl shadow-md"
           width="500"
         />
-        <!-- <NuxtImg
-          src="/images/food-table.jpg"
-          alt="Using MenuMate on Tablet"
-          class="rounded-xl shadow-md"
-          width="500"
-        /> -->
         <div>
           <p class="text-lg">
             This isn't just an app I made — it's one I use every single day. I utilize every feature:

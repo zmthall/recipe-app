@@ -7,12 +7,6 @@
     >
       <!-- Logo -->
       <NuxtLink :to="logoLink">
-        <!-- <img
-          src="/images/logo.png"
-          alt="MenuMate Logo"
-          width="120"
-          class="mx-auto"
-        /> -->
         <NuxtImg
           src="/images/logo.png"
           alt="MenuMate Logo"

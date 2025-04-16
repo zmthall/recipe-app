@@ -4,18 +4,13 @@
       <div
         class="max-sm:w-full sm:rounded-md max-sm:px-4 max-sm:py-8 shadow-main fixed top-1/2 -translate-y-1/2 bg-brand-background-primary/80 sm:w-3/4 sm:p-8 sm:left-1/2 sm:-translate-x-1/2 md:w-1/2"
       >
-        <img
+        <NuxtImg
           src="/images/login-logo.png"
           alt="MenuMate Login Logo"
           class="w-4/6 mx-auto"
           width="300px"
+          format="webp"
         />
-        <!-- <NuxtImg
-          src="/images/login-logo.png"
-          alt="MenuMate Login Logo"
-          class="w-4/6 mx-auto"
-          width="300px"
-        /> -->
         <div
           class="shadow-inner-main p-8 my-8 font-open-sans text-brand-text-dark bg-brand-white rounded-lg"
         >
