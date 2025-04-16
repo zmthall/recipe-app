@@ -20,12 +20,12 @@
 
     <!-- Image Right -->
     <div class="md:w-1/2 flex justify-center">
-      <NuxtImg
+      <!-- <NuxtImg
         src="/images/hero-placeholder.png"
         alt="Meal planning dashboard preview"
         class="rounded-xl shadow-lg max-w-full w-[420px] h-auto"
         format="webp"
-      />
+      /> -->
     </div>
 
   </div>
@@ -86,12 +86,12 @@
             Add, categorize, edit, and import recipes from your favorite websites. Personalize your cookbook layout and recipe formatting to match how you cook.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/add-recipes.gif"
           alt="Create and edit recipes"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
       <!-- Feature 2 -->
@@ -102,12 +102,12 @@
             Sort recipes by meal type or build your own categories like “Weeknight Dinners” or “Family BBQ.” Plan every dish, from breakfast to big gatherings.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/organize-recipes.gif"
           alt="Organize cookbooks"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
       <!-- Feature 3 -->
@@ -118,12 +118,12 @@
             Search across all your cookbooks by name, ingredient, or category. Quickly print individual recipes or full cookbooks for offline use.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/find-recipes.gif"
           alt="Search and print recipes"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
       <!-- Feature 4 -->
@@ -134,12 +134,12 @@
             Build weekly or monthly meal plans and assign macro goals like protein, carbs, fats, and fiber. Perfect for balanced eating and nutritional planning.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/plan-meals.gif"
           alt="Meal planning with macros"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
       <!-- Feature 5 -->
@@ -150,12 +150,12 @@
             Quickly log what you eat and how much. Set goals, review food history, and track your health journey right inside MenuMate.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/food-journal.gif"
           alt="Food journal tracking"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
       <!-- Feature 6 -->
@@ -166,12 +166,12 @@
             Use your meal plans to automatically generate grocery lists. Save carts for future reuse and reduce trips to the store with organized prep.
           </p>
         </div>
-        <NuxtImg
+        <!-- <NuxtImg
           src="/images/grocery-cart.gif"
           alt="Grocery cart feature"
           class="rounded-lg shadow-md w-full h-auto"
           format="webp"
-        />
+        /> -->
       </div>
 
     </div>

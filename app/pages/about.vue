@@ -35,7 +35,7 @@
       <!-- Section 2: Using the App Personally -->
       <div class="grid md:grid-cols-2 gap-10 items-center">
         <NuxtImg
-          src="/images/about-using-app.png"
+          src="/images/food-table.jpg"
           alt="Using MenuMate on Tablet"
           class="rounded-xl shadow-md"
           width="500"
