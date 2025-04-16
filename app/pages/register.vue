@@ -17,9 +17,7 @@
           >
             <form @submit.prevent="signupEmail" class="flex flex-col">
               <div class="flex flex-col">
-                <label for="email" class="font-extrabold text-xs mb-2"
-                  >Email:</label
-                >
+                <label class="font-extrabold text-xs mb-2">Email:</label>
                 <input
                   type="text"
                   id="email"
@@ -30,9 +28,7 @@
                 />
               </div>
               <div class="flex flex-col">
-                <label for="email" class="font-extrabold text-xs mb-2"
-                  >Password:</label
-                >
+                <label class="font-extrabold text-xs mb-2">Password:</label>
                 <div class="relative w-full">
                   <input
                     :type="showPassword ? 'text' : 'password'"
@@ -45,7 +41,8 @@
                   <button
                     type="button"
                     @click="showPassword = !showPassword"
-                    class="absolute right-3 top-3 text-brand-link hover:text-brand-accent"
+                    class="absolute right-3 top-1 text-brand-link hover:text-brand-accent p-2"
+                    aria-label="show/hide password"
                   >
                     <Icon :name="showPassword ? 'mdi:eye-off' : 'mdi:eye'" />
                   </button>
@@ -53,7 +50,7 @@
               </div>
               <button
                 type="submit"
-                class="xs:w-4/6 max-xs:w-full mx-auto my-2 bg-brand-primary py-3 rounded-lg border-2 border-brand-accent text-brand-white hover:bg-brand-secondary"
+                class="xs:w-4/6 max-xs:w-full mx-auto my-2 bg-brand-primary py-3 rounded-lg border-2 border-brand-accent font-bold text-brand-text-dark hover:bg-brand-secondary transition-colors duration-300 ease-in-out"
               >
                 Sign Up
               </button>
@@ -67,7 +64,7 @@
             </div>
             <button
               @click="loginGoogle"
-              class="flex gap-2 justify-center items-center xs:w-4/6 max-xs:w-full mx-auto mt-2 py-3 rounded-lg border-2 md:w-5/6 md2:w-4/6 border-brand-accent text-brand-text-dark hover:bg-gray-100"
+              class="flex gap-2 justify-center items-center xs:w-4/6 max-xs:w-full mx-auto mt-2 py-3 rounded-lg border-2 md:w-5/6 md2:w-4/6 border-brand-accent text-brand-text-dark hover:bg-gray-100 transition-colors duration-300 ease-in-out"
             >
               <Icon name="logos:google-icon" />Sign up with Google
             </button>
@@ -79,10 +76,9 @@
             Already have an account?
             <NuxtLink
               to="/login"
-              class="text-brand-link underline hover:text-brand-accent"
-              >login</NuxtLink
-            >
-            now.
+              class="text-brand-link underline font-semibold hover:text-brand-accent"
+              >login here</NuxtLink
+            >.
           </p>
         </div>
       </AuthBackground>
@@ -91,8 +87,20 @@
 </template>
 
 <script lang="ts" setup>
+useHead({
+  title: "MenuMate | User Registration",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Sign up for MenuMate to create custom cookbooks, save your favorite recipes, and plan meals with ease. Start organizing your cooking life today.",
+    },
+  ],
+});
+
 definePageMeta({
   layout: "auth",
+  name: "Register Page",
 });
 
 const authStore = useAuthStore();

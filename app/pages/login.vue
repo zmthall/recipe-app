@@ -16,9 +16,7 @@
         >
           <form @submit.prevent="loginEmail" class="flex flex-col">
             <div class="flex flex-col">
-              <label for="email" class="font-extrabold text-xs mb-2"
-                >Email:</label
-              >
+              <label class="font-extrabold text-xs mb-2">Email:</label>
               <input
                 type="text"
                 id="email"
@@ -29,9 +27,7 @@
               />
             </div>
             <div class="flex flex-col">
-              <label for="email" class="font-extrabold text-xs mb-2"
-                >Password:</label
-              >
+              <label class="font-extrabold text-xs mb-2">Password:</label>
               <div class="relative w-full">
                 <input
                   :type="showPassword ? 'text' : 'password'"
@@ -44,7 +40,8 @@
                 <button
                   type="button"
                   @click="showPassword = !showPassword"
-                  class="absolute right-3 top-3 text-brand-link hover:text-brand-accent"
+                  class="absolute right-3 top-1 text-brand-link p-2 hover:text-brand-accent"
+                  aria-label="hide/show password"
                 >
                   <Icon :name="showPassword ? 'mdi:eye-off' : 'mdi:eye'" />
                 </button>
@@ -52,7 +49,7 @@
             </div>
             <button
               type="submit"
-              class="xs:w-4/6 max-xs:w-full mx-auto my-2 bg-brand-primary py-3 rounded-lg border-2 border-brand-accent text-brand-white hover:bg-brand-secondary transition-colors duration-300 ease-in-out"
+              class="xs:w-4/6 max-xs:w-full mx-auto my-2 bg-brand-primary py-3 rounded-lg border-2 border-brand-accent font-bold text-brand-text-dark hover:bg-brand-secondary transition-colors duration-300 ease-in-out"
             >
               Login
             </button>
@@ -87,6 +84,13 @@
 </template>
 
 <script lang="ts" setup>
+useHead({
+  title: 'MenuMate | User Login',
+  meta: [
+    { name: 'description', content: 'Log in to MenuMate to access your saved recipes, custom cookbooks, shopping lists, and meal plans. Simple, fast, and secure access to your kitchen tools.' }
+  ],
+})
+
 definePageMeta({
   layout: "auth",
 });

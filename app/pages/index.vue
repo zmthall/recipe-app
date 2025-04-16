@@ -207,18 +207,22 @@
 
       <!-- Avocado Tier -->
       <div class="bg-white rounded-lg shadow-lg p-8 flex flex-col justify-between h-full border-2 border-brand-accent bg-brand-background/10">
-        <div>
-          <h3 class="text-2xl font-bold text-brand-accent mb-2">🥑 Avocado</h3>
-          <p class="text-brand-text-medium mb-4">Rich in features, just right for everyday cooking.</p>
-          <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
-            <li>✅ 10 Cookbooks</li>
-            <li>✅ Up to 1,000 Recipes</li>
-            <li>✅ Web Import & Editor</li>
-            <li>✅ Grocery Cart Builder</li>
-            <li>✅ Print Recipes & Cookbooks</li>
-          </ul>
-          <p class="text-brand-text-dark font-semibold mb-1">$5/mo billed annually</p>
-          <p class="text-sm text-brand-text-medium mb-4">or $6/mo monthly</p>
+        <div class="flex flex-col justify-between h-full">
+          <div>
+            <h3 class="text-2xl font-bold text-brand-accent mb-2">🥑 Avocado</h3>
+            <p class="text-brand-text-medium mb-4">Rich in features, just right for everyday cooking.</p>
+            <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
+              <li>✅ 10 Cookbooks</li>
+              <li>✅ Up to 1,000 Recipes</li>
+              <li>✅ Web Import & Editor</li>
+              <li>✅ Grocery Cart Builder</li>
+              <li>✅ Print Recipes & Cookbooks</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-brand-text-dark font-semibold mb-1">$5/mo billed annually</p>
+            <p class="text-sm text-brand-text-medium mb-4">or $6/mo monthly</p>
+          </div>
         </div>
         <NuxtLink
           to="/register"
@@ -230,19 +234,23 @@
 
       <!-- Truffle Tier -->
       <div class="bg-white rounded-lg shadow-md p-8 flex flex-col justify-between h-full border border-brand-border">
-        <div>
-          <h3 class="text-2xl font-bold text-brand-primary mb-2">🍄 Truffle</h3>
-          <p class="text-brand-text-medium mb-4">All the flavor, all the power. No limits.</p>
-          <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
-            <li>✅ Unlimited Cookbooks</li>
-            <li>✅ Unlimited Recipes</li>
-            <li>✅ Everything in Avocado Tier</li>
-            <li>✅ Macro Tracking</li>
-            <li>✅ Food Journal</li>
-            <li>✅ Priority Support & More</li>
-          </ul>
-          <p class="text-brand-text-dark font-semibold mb-1">$15/mo billed annually</p>
-          <p class="text-sm text-brand-text-medium mb-4">or $17/mo monthly</p>
+        <div class="flex flex-col justify-between h-full">
+          <div>
+            <h3 class="text-2xl font-bold text-brand-primary mb-2">🍄 Truffle</h3>
+            <p class="text-brand-text-medium mb-4">All the flavor, all the power. No limits.</p>
+            <ul class="text-left space-y-2 text-brand-text-medium mb-6 max-md:flex max-md:flex-col max-md:items-center max-xs:items-start">
+              <li>✅ Unlimited Cookbooks</li>
+              <li>✅ Unlimited Recipes</li>
+              <li>✅ Everything in Avocado Tier</li>
+              <li>✅ Macro Tracking</li>
+              <li>✅ Food Journal</li>
+              <li>✅ Priority Support & More</li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-brand-text-dark font-semibold mb-1">$15/mo billed annually</p>
+            <p class="text-sm text-brand-text-medium mb-4">or $17/mo monthly</p>
+          </div>
         </div>
         <NuxtLink
           to="/register"

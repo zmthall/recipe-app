@@ -31,4 +31,11 @@ export default defineNuxtConfig({
       appId: process.env.appId,
     },
   },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "en", // or 'es', 'fr', etc.
+      },
+    },
+  },
 });
