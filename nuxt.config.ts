@@ -37,5 +37,7 @@ export default defineNuxtConfig({
         lang: "en", // or 'es', 'fr', etc.
       },
     },
+    baseURL: "/recipe-app/",
+    buildAssetsDir: "assets",
   },
 });
