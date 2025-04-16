@@ -1,1 +1,0 @@
-import{R as o,u as r,S as s,n as u}from"./84vSVqtI.js";import{u as i}from"./Blovjl85.js";const l=o(async(n,c)=>{let t,e;const a=r();if([t,e]=s(()=>i(()=>a.authResolved).toBe(!0)),await t,e(),!a.authenticated)return u({path:"/login"})});export{l as default};
