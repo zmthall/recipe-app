@@ -18,16 +18,17 @@
       <button @click="closeNav"
       class="sm:hidden max-sm:top-4 max-sm:right-4 max-sm:px-2 max-sm:absolute max-sm:text-3xl max-sm:hover:text-gray-500"><Icon name="material-symbols:close-rounded" class="size-10"/></button>
     <NuxtLink :to="logoLink" class="sm:hidden max-sm:my-20" @click="closeNav">
-      <img
-        width="200px"
-        src="/images/logo.png"
-        alt="Menu Mate Logo"
-      />
-      <!-- <NuxtImg
+      <!-- <img
         width="200px"
         src="/images/logo.png"
         alt="Menu Mate Logo"
       /> -->
+      <NuxtImg
+        format="webp"
+        width="200px"
+        src="/images/logo.png"
+        alt="Menu Mate Logo"
+      />
     </NuxtLink>
       <div class="flex items-center gap-6 max-sm:w-3/4 max-sm:justify-center max-sm:border-y-2 max-sm:border-brand-border/50 py-8" v-show="links">
         <nav class="flex items-center max-sm:w-full">
