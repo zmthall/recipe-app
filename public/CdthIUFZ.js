@@ -1,0 +1,1 @@
+import{_ as e}from"./BRwUMilb.js";import{f as n,h as a,w as s,o as r,a as _}from"./C5OdKla9.js";const c=n({__name:"dashboard",setup(l){return(p,o)=>{const t=e;return r(),a(t,null,{default:s(()=>o[0]||(o[0]=[_("div",null," dashboard ",-1)])),_:1})}}});export{c as default};

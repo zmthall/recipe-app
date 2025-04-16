@@ -1,0 +1,1 @@
+import{x as s,y as r,z as u,A as o,B as i}from"./C5OdKla9.js";function c(e){var t;const n=e||r();return((t=n.ssrContext)==null?void 0:t.head)||n.runWithContext(()=>{if(u()){const a=o(i);if(!a)throw new Error("[nuxt] [unhead] Missing Unhead instance.");return a}})}function h(e,n={}){const t=c(n.nuxt);return s(e,{head:t,...n})}export{h as u};
